@@ -19,7 +19,7 @@ export const Header: React.FC = () =>{
       <div className="flex gap-x-7 font-semibold text-base px-2 items-center">
         <button onClick={() => navigate("/")} className="border-b-2 hover:border-b-2 hover:border-[#2e43e4]">Home</button>
         <button className="border-b-2 hover:border-b-2 hover:border-[#2e43e4]">Users</button>
-        <button className="border-b-2 hover:border-b-2 hover:border-[#2e43e4]">Posts</button>
+        <button onClick={() => navigate("/products")} className="border-b-2 hover:border-b-2 hover:border-[#2e43e4]">Products</button>
       </div>
     </div>
   )
